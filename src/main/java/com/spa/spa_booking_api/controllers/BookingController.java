@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spa.spa_booking_api.models.Booking;
 import com.spa.spa_booking_api.services.BookingService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://seahorse-app-jmxni.ondigitalocean.app")
 @RestController
 @RequestMapping("/api/bookings")
 public class BookingController {
