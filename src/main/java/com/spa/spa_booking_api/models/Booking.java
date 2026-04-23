@@ -30,6 +30,8 @@ public class Booking {
     @NotBlank
     private String treatment;
 
+    public Booking() {}
+
     public Booking(String id, String date, String time, int guests, double totalPrice, String name, String treatment) {
         this.id = id;
         this.date = date;
